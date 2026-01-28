@@ -13,7 +13,7 @@ void swap(int &a,int &b){
 void display(int a[],int n){
     int i;
     for (i=0; i<n; i++){
-            cout<<setw(3)<<a[i];//<<endl;
+            cout<<" "<<a[i];//<<endl;
          
         }
     cout<<endl;
